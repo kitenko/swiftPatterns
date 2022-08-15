@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02667B8A28A96C35007DA702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02667B8928A96C35007DA702 /* AppDelegate.swift */; };
+		02667B8C28A96C35007DA702 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02667B8B28A96C35007DA702 /* SceneDelegate.swift */; };
+		02667B8E28A96C35007DA702 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02667B8D28A96C35007DA702 /* QuestionViewController.swift */; };
+		02667B9128A96C35007DA702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02667B8F28A96C35007DA702 /* Main.storyboard */; };
+		02667B9428A96C35007DA702 /* RabbleWabble.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02667B9228A96C35007DA702 /* RabbleWabble.xcdatamodeld */; };
+		02667BA428A96C36007DA702 /* RabbleWabbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02667BA328A96C36007DA702 /* RabbleWabbleTests.swift */; };
+		02667BAE28A96C36007DA702 /* RabbleWabbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02667BAD28A96C36007DA702 /* RabbleWabbleUITests.swift */; };
+		02667BB028A96C36007DA702 /* RabbleWabbleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02667BAF28A96C36007DA702 /* RabbleWabbleUITestsLaunchTests.swift */; };
+		02667BC228A96FB0007DA702 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02667BC128A96FB0007DA702 /* Question.swift */; };
+		02667BC428A96FFA007DA702 /* QuestionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02667BC328A96FFA007DA702 /* QuestionGroup.swift */; };
+		02667BC628A9721D007DA702 /* QuestionGroupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02667BC528A9721C007DA702 /* QuestionGroupData.swift */; };
+		02667BC828A97288007DA702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02667BC728A97288007DA702 /* Assets.xcassets */; };
+		02667BCA28A972BB007DA702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02667BC928A972BB007DA702 /* LaunchScreen.storyboard */; };
+		02667BCC28A9731C007DA702 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02667BCB28A9731C007DA702 /* QuestionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02667BA028A96C36007DA702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02667B7E28A96C35007DA702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02667B8528A96C35007DA702;
+			remoteInfo = RabbleWabble;
+		};
+		02667BAA28A96C36007DA702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02667B7E28A96C35007DA702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02667B8528A96C35007DA702;
+			remoteInfo = RabbleWabble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02667B8628A96C35007DA702 /* RabbleWabble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabbleWabble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02667B8928A96C35007DA702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02667B8B28A96C35007DA702 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02667B8D28A96C35007DA702 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		02667B9028A96C35007DA702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02667B9328A96C35007DA702 /* RabbleWabble.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RabbleWabble.xcdatamodel; sourceTree = "<group>"; };
+		02667B9A28A96C36007DA702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02667B9F28A96C36007DA702 /* RabbleWabbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabbleWabbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02667BA328A96C36007DA702 /* RabbleWabbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbleWabbleTests.swift; sourceTree = "<group>"; };
+		02667BA928A96C36007DA702 /* RabbleWabbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabbleWabbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02667BAD28A96C36007DA702 /* RabbleWabbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbleWabbleUITests.swift; sourceTree = "<group>"; };
+		02667BAF28A96C36007DA702 /* RabbleWabbleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbleWabbleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02667BC128A96FB0007DA702 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		02667BC328A96FFA007DA702 /* QuestionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroup.swift; sourceTree = "<group>"; };
+		02667BC528A9721C007DA702 /* QuestionGroupData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionGroupData.swift; sourceTree = "<group>"; };
+		02667BC728A97288007DA702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02667BC928A972BB007DA702 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02667BCB28A9731C007DA702 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02667B8328A96C35007DA702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02667B9C28A96C36007DA702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02667BA628A96C36007DA702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02667B7D28A96C35007DA702 = {
+			isa = PBXGroup;
+			children = (
+				02667B8828A96C35007DA702 /* RabbleWabble */,
+				02667BA228A96C36007DA702 /* RabbleWabbleTests */,
+				02667BAC28A96C36007DA702 /* RabbleWabbleUITests */,
+				02667B8728A96C35007DA702 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02667B8728A96C35007DA702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02667B8628A96C35007DA702 /* RabbleWabble.app */,
+				02667B9F28A96C36007DA702 /* RabbleWabbleTests.xctest */,
+				02667BA928A96C36007DA702 /* RabbleWabbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02667B8828A96C35007DA702 /* RabbleWabble */ = {
+			isa = PBXGroup;
+			children = (
+				02667BBC28A96D67007DA702 /* AppDelegete */,
+				02667BBE28A96DAA007DA702 /* Controllers */,
+				02667BBD28A96D98007DA702 /* Models */,
+				02667B9228A96C35007DA702 /* RabbleWabble.xcdatamodeld */,
+				02667BBF28A96DB8007DA702 /* Resources */,
+				02667BC028A96DC8007DA702 /* Views */,
+			);
+			path = RabbleWabble;
+			sourceTree = "<group>";
+		};
+		02667BA228A96C36007DA702 /* RabbleWabbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				02667BA328A96C36007DA702 /* RabbleWabbleTests.swift */,
+			);
+			path = RabbleWabbleTests;
+			sourceTree = "<group>";
+		};
+		02667BAC28A96C36007DA702 /* RabbleWabbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02667BAD28A96C36007DA702 /* RabbleWabbleUITests.swift */,
+				02667BAF28A96C36007DA702 /* RabbleWabbleUITestsLaunchTests.swift */,
+			);
+			path = RabbleWabbleUITests;
+			sourceTree = "<group>";
+		};
+		02667BBC28A96D67007DA702 /* AppDelegete */ = {
+			isa = PBXGroup;
+			children = (
+				02667B8B28A96C35007DA702 /* SceneDelegate.swift */,
+				02667B8928A96C35007DA702 /* AppDelegate.swift */,
+			);
+			path = AppDelegete;
+			sourceTree = "<group>";
+		};
+		02667BBD28A96D98007DA702 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02667BC528A9721C007DA702 /* QuestionGroupData.swift */,
+				02667BC128A96FB0007DA702 /* Question.swift */,
+				02667BC328A96FFA007DA702 /* QuestionGroup.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		02667BBE28A96DAA007DA702 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				02667B8D28A96C35007DA702 /* QuestionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		02667BBF28A96DB8007DA702 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02667BC728A97288007DA702 /* Assets.xcassets */,
+				02667B9A28A96C36007DA702 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		02667BC028A96DC8007DA702 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02667BC928A972BB007DA702 /* LaunchScreen.storyboard */,
+				02667B8F28A96C35007DA702 /* Main.storyboard */,
+				02667BCB28A9731C007DA702 /* QuestionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02667B8528A96C35007DA702 /* RabbleWabble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02667BB328A96C36007DA702 /* Build configuration list for PBXNativeTarget "RabbleWabble" */;
+			buildPhases = (
+				02667B8228A96C35007DA702 /* Sources */,
+				02667B8328A96C35007DA702 /* Frameworks */,
+				02667B8428A96C35007DA702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RabbleWabble;
+			productName = RabbleWabble;
+			productReference = 02667B8628A96C35007DA702 /* RabbleWabble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02667B9E28A96C36007DA702 /* RabbleWabbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02667BB628A96C36007DA702 /* Build configuration list for PBXNativeTarget "RabbleWabbleTests" */;
+			buildPhases = (
+				02667B9B28A96C36007DA702 /* Sources */,
+				02667B9C28A96C36007DA702 /* Frameworks */,
+				02667B9D28A96C36007DA702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02667BA128A96C36007DA702 /* PBXTargetDependency */,
+			);
+			name = RabbleWabbleTests;
+			productName = RabbleWabbleTests;
+			productReference = 02667B9F28A96C36007DA702 /* RabbleWabbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02667BA828A96C36007DA702 /* RabbleWabbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02667BB928A96C36007DA702 /* Build configuration list for PBXNativeTarget "RabbleWabbleUITests" */;
+			buildPhases = (
+				02667BA528A96C36007DA702 /* Sources */,
+				02667BA628A96C36007DA702 /* Frameworks */,
+				02667BA728A96C36007DA702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02667BAB28A96C36007DA702 /* PBXTargetDependency */,
+			);
+			name = RabbleWabbleUITests;
+			productName = RabbleWabbleUITests;
+			productReference = 02667BA928A96C36007DA702 /* RabbleWabbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02667B7E28A96C35007DA702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					02667B8528A96C35007DA702 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					02667B9E28A96C36007DA702 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 02667B8528A96C35007DA702;
+					};
+					02667BA828A96C36007DA702 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 02667B8528A96C35007DA702;
+					};
+				};
+			};
+			buildConfigurationList = 02667B8128A96C35007DA702 /* Build configuration list for PBXProject "RabbleWabble" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02667B7D28A96C35007DA702;
+			productRefGroup = 02667B8728A96C35007DA702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02667B8528A96C35007DA702 /* RabbleWabble */,
+				02667B9E28A96C36007DA702 /* RabbleWabbleTests */,
+				02667BA828A96C36007DA702 /* RabbleWabbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02667B8428A96C35007DA702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02667BCA28A972BB007DA702 /* LaunchScreen.storyboard in Resources */,
+				02667BC828A97288007DA702 /* Assets.xcassets in Resources */,
+				02667B9128A96C35007DA702 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02667B9D28A96C36007DA702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02667BA728A96C36007DA702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02667B8228A96C35007DA702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02667BCC28A9731C007DA702 /* QuestionView.swift in Sources */,
+				02667BC228A96FB0007DA702 /* Question.swift in Sources */,
+				02667B8E28A96C35007DA702 /* QuestionViewController.swift in Sources */,
+				02667B8A28A96C35007DA702 /* AppDelegate.swift in Sources */,
+				02667BC428A96FFA007DA702 /* QuestionGroup.swift in Sources */,
+				02667BC628A9721D007DA702 /* QuestionGroupData.swift in Sources */,
+				02667B9428A96C35007DA702 /* RabbleWabble.xcdatamodeld in Sources */,
+				02667B8C28A96C35007DA702 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02667B9B28A96C36007DA702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02667BA428A96C36007DA702 /* RabbleWabbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02667BA528A96C36007DA702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02667BAE28A96C36007DA702 /* RabbleWabbleUITests.swift in Sources */,
+				02667BB028A96C36007DA702 /* RabbleWabbleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02667BA128A96C36007DA702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02667B8528A96C35007DA702 /* RabbleWabble */;
+			targetProxy = 02667BA028A96C36007DA702 /* PBXContainerItemProxy */;
+		};
+		02667BAB28A96C36007DA702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02667B8528A96C35007DA702 /* RabbleWabble */;
+			targetProxy = 02667BAA28A96C36007DA702 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02667B8F28A96C35007DA702 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02667B9028A96C35007DA702 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02667BB128A96C36007DA702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02667BB228A96C36007DA702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02667BB428A96C36007DA702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAQY25FZ5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RabbleWabble/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitenko.RabbleWabble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02667BB528A96C36007DA702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAQY25FZ5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RabbleWabble/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitenko.RabbleWabble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02667BB728A96C36007DA702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAQY25FZ5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitenko.RabbleWabbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RabbleWabble.app/RabbleWabble";
+			};
+			name = Debug;
+		};
+		02667BB828A96C36007DA702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAQY25FZ5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitenko.RabbleWabbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RabbleWabble.app/RabbleWabble";
+			};
+			name = Release;
+		};
+		02667BBA28A96C36007DA702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAQY25FZ5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitenko.RabbleWabbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RabbleWabble;
+			};
+			name = Debug;
+		};
+		02667BBB28A96C36007DA702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAQY25FZ5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitenko.RabbleWabbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RabbleWabble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02667B8128A96C35007DA702 /* Build configuration list for PBXProject "RabbleWabble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02667BB128A96C36007DA702 /* Debug */,
+				02667BB228A96C36007DA702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02667BB328A96C36007DA702 /* Build configuration list for PBXNativeTarget "RabbleWabble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02667BB428A96C36007DA702 /* Debug */,
+				02667BB528A96C36007DA702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02667BB628A96C36007DA702 /* Build configuration list for PBXNativeTarget "RabbleWabbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02667BB728A96C36007DA702 /* Debug */,
+				02667BB828A96C36007DA702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02667BB928A96C36007DA702 /* Build configuration list for PBXNativeTarget "RabbleWabbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02667BBA28A96C36007DA702 /* Debug */,
+				02667BBB28A96C36007DA702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02667B9228A96C35007DA702 /* RabbleWabble.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02667B9328A96C35007DA702 /* RabbleWabble.xcdatamodel */,
+			);
+			currentVersion = 02667B9328A96C35007DA702 /* RabbleWabble.xcdatamodel */;
+			path = RabbleWabble.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02667B7E28A96C35007DA702 /* Project object */;
+}
